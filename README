@@ -1,0 +1,34 @@
+Quick&Dirty Keypress simulator using a NES Controller and an Arduino
+Designed to operate on a GNU/Linux environment
+
+Requeriments:
+  Python
+  xte
+
+
+Arduino Setup
+ CLK -> Pin 2
+ LATCH -> Pin 3
+ DATA -> Pin 4
+ VCC/GND -> VCC/GND
+
+########### Some Info ############
+
+Pinout
+
+        o 4
+
+   1 o  o 5
+
+   2 o  o 6
+
+   3 o  o 7
+               
+
+1. +5VDC Supply
+2. ?
+3. ?
+4. GND
+5. CLK
+6. Latch
+7. Data out
